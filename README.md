@@ -16,14 +16,11 @@ mpu_armv7.h
 
 ### CMSIS Device
 
-Need the following files:
-[Link](https://github.com/STMicroelectronics/cmsis-device-f4/tree/3c77349ce04c8af401454cc51f85ea9a50e34fc1/Include)
+Need the following files at[🔗](https://github.com/STMicroelectronics/cmsis-device-f4/tree/3c77349ce04c8af401454cc51f85ea9a50e34fc1/Include):
 
-```{bash}
-stm32f446xx.h
-stm32f4xx.h
-system_stm32f4xx.h
-```
+- stm32f446xx.h
+- stm32f4xx.h
+- system_stm32f4xx.h
 
 [Link](https://github.com/STMicroelectronics/cmsis-device-f4/tree/3c77349ce04c8af401454cc51f85ea9a50e34fc1/Source/Templates)
 
