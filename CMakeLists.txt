@@ -37,6 +37,7 @@ set(CMAKE_EXE_LINKER_FLAGS "${CPU_FLAGS} -specs=nano.specs -T${LINKER_SCRIPT} -W
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/include/core
     ${CMAKE_CURRENT_SOURCE_DIR}/include/device
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/hal
 )
 
 # Defines
@@ -49,6 +50,10 @@ add_definitions(
 set(SOURCES
     src/main.c
     src/templates/system_stm32f4xx.c
+    src/hal/stm32f4xx_hal.c
+    src/hal/stm32f4xx_hal_gpio.c
+    src/hal/stm32f4xx_hal_rcc.c
+    src/hal/stm32f4xx_hal_cortex.c
     ${STARTUP_FILE}
 )
 

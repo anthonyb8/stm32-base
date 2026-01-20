@@ -10,7 +10,7 @@ This is for a STM32F446 on Nucleo Board F446RE
 - core_cm4.h
 - mpu_armv7.h
 
-### CMSIS Device 
+### CMSIS Device
 
 Headers [🔗](https://github.com/STMicroelectronics/cmsis-device-f4/tree/3c77349ce04c8af401454cc51f85ea9a50e34fc1/Include)
 
@@ -37,6 +37,10 @@ STM32F446RETX_FLASH.ld
 ```
 
 ### HAL-LL (Optional but recommended)
+
+[Link](https://github.com/STMicroelectronics/stm32f4xx-hal-driver/tree/4580e1aebe945f3236fa51d72e34696aa152f17f)
+
+Copy the headers and source that needed or copy all if you want all.
 
 ### Compile
 
